@@ -2,7 +2,7 @@ package uaspbo1bus;
 
 public class Tiket {
 
-    //  Atribut
+    // Atribut
     private String kodeTiket;
     private String namaPenumpang;
     private String nik;
@@ -18,7 +18,7 @@ public class Tiket {
 
     }
 
-    //  Getter
+    // Getter
     public String getKodeTiket() {
         return kodeTiket;
     }
@@ -35,7 +35,7 @@ public class Tiket {
         return noHp;
     }
 
-    //  Setter
+    // Setter
     public void setNamaPenumpang(String namaPenumpang) {
         this.namaPenumpang = namaPenumpang;
     }
@@ -48,7 +48,7 @@ public class Tiket {
         this.noHp = noHp;
     }
 
-    //  Menampilkan data penumpang
+    // Menampilkan data penumpang
     public void tampilData() {
 
         System.out.println("--------------------------------");
