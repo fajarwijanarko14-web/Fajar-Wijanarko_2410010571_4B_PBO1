@@ -6,7 +6,7 @@ public class KelolaTiket {
 
     Scanner input = new Scanner(System.in);
 
-    Bus[] daftar = new Bus[100];
+    DataBus[] daftar = new DataBus[100];
     int jumlah = 0;
     int nomor = 1;
 
@@ -28,7 +28,7 @@ public class KelolaTiket {
             System.out.print("No HP          : ");
             String noHp = input.nextLine();
 
-            // Pilih Bus
+            // Pilih DataBus
             System.out.println("\nPilih Nama Bus");
             System.out.println("1. Damri");
             System.out.println("2. Rosalia Indah");
@@ -89,7 +89,7 @@ public class KelolaTiket {
             System.out.print("Nomor Kursi : ");
             int kursi = Integer.parseInt(input.nextLine());
 
-            daftar[jumlah] = new Bus(
+            daftar[jumlah] = new DataBus(
                     kode,
                     nama,
                     nik,
@@ -185,7 +185,7 @@ public class KelolaTiket {
                 System.out.print("No HP Baru : ");
                 daftar[i].setNoHp(input.nextLine());
 
-                // Pilih Nama Bus
+                // Pilih Nama DataBus
                 System.out.println("\nPilih Nama Bus");
                 System.out.println("1. Damri");
                 System.out.println("2. Rosalia Indah");
